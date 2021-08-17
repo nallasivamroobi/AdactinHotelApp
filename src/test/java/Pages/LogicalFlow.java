@@ -8,12 +8,15 @@ public class LogicalFlow extends Globallibrary {
 	
 	public LogicalFlow() {
 	    System.out.println("constructor");       
-		global.getDriver();
+	
 	}
-
-	Globallibrary global = new Globallibrary();
 	
-	
-	 
+	@Test 
+	public void program()
+	{
+		Globallibrary g = new Globallibrary();
+		g.getDriver();
+		System.out.println("starting of main ");
+	}
 
 }
